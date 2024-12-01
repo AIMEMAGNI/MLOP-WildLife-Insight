@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: my-service
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
-    runtime: python-3.10.0  # Specify the desired Python version
